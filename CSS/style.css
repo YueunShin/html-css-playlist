@@ -1,0 +1,60 @@
+/* @import */
+@import "./reset.css";
+@import "./button.css";
+
+/* CSS */
+/* body__header */
+
+.cover {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+
+.cover__img {
+  width: 500px;
+  height: 400px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.cover__info__writer-pic {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  padding-right: 3px;
+}
+
+.cover__info__writer {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.cover__info {
+  display: flex;
+  padding: 100px 450px;
+}
+
+.cover__info__title h3 {
+  font-size: 30px;
+}
+
+.cover__info__writer span h3 {
+  font-size: 25px;
+}
+
+.cover_p {
+  align-items: center;
+  padding: 0px 400px;
+  padding-bottom: 100px;
+  font-size: 20px;
+}
+
+/* main */
+
+.more {
+  display: flex;
+}
