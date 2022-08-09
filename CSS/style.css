@@ -1,6 +1,8 @@
 /* @import */
 @import "./reset.css";
 @import "./button.css";
+@import "./list.css";
+@import "./nav-bar.css";
 
 /* CSS */
 /* body__header */
@@ -57,4 +59,7 @@
 
 .more {
   display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-size: 20px;
 }
