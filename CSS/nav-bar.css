@@ -1,0 +1,48 @@
+.play-status__cover__img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+
+.play-status {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.play-status__info__title {
+  font-weight: 580;
+  font-size: 27px;
+  padding: 10px 30px;
+  border-bottom: 1px;
+  border-color: black;
+}
+
+.play-status__info__artist {
+  font-weight: 400;
+  font-size: 20px;
+  padding: 10px 30px;
+  border-bottom: 1px;
+}
+
+.play-status__btn {
+  display: flex;
+  padding-left: 500px;
+}
+
+.play-status__btn div {
+  padding: 50px;
+}
+
+.play-status__btn div > i {
+  font-size: xxx-large;
+}
+
+body {
+  position: ;
+}
+
+nav {
+  position: absolute;
+  background-color: lavender;
+}
