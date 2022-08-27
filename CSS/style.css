@@ -4,6 +4,12 @@
 @import "./list.css";
 @import "./nav-bar.css";
 
+@media screen and (max-width: 1200px;) {
+  body {
+    background-color: lavender;
+  }
+}
+
 /* CSS */
 /* body__header */
 
@@ -13,13 +19,17 @@
   align-items: center;
 }
 
-.cover__img {
-  width: 500px;
-  height: 400px;
-  display: block;
+.cover__img-box__img {
+  width: 80vw;
+  height: 100vh;
+  border-radius: 50px;
+}
+
+.cover__img-box {
+  display: flex;
   align-items: center;
   justify-content: center;
-  margin: auto;
+  padding: 80px;
 }
 
 .cover__info__writer-pic {
@@ -37,7 +47,7 @@
 
 .cover__info {
   display: flex;
-  padding: 100px 450px;
+  padding: 100px 0px;
 }
 
 .cover__info__title h3 {
