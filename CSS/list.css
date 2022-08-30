@@ -1,14 +1,13 @@
 .list__set__cover {
   justify-content: center;
   align-items: center;
-  /* background-color: slategray; */
-  padding: 5px;
+  background-color: slategray;
 }
 
 .list__set__cover_img {
   border-radius: 50%;
-  width: 10px;
-  height: 10px;
+  width: 30vw;
+  height: 30vw;
 }
 
 .list__set {
